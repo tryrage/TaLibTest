@@ -66,6 +66,7 @@ namespace TaLibTest
         public int Begin { get; set; }
         public int Length { get; set; }
         public double[] Output { get; set; }
+        public double[] Bias { get; set; }
     }
 
     public class BollingerBand
